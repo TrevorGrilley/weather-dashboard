@@ -27,11 +27,43 @@
                         </button>
                     </div>
                 </div>
-                
+
                 <button class="btn btn-primary mb-3" type="button" id="clear-previous-searches">Clear Previous Searches</button>
                 <form id="searches"></form>
             </div>
 
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-12 card m-3" id="current-weather">
+                        <div class="conditions>
+
+                            <div id="city-name">
+                            <img id="current-pic" alt="">
+                            <p id="temperature"></p>
+                            <p id="humidity"></p>
+                            <p id="wind-speed"></p>
+                            <p id="UV-index"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="five-day">
+                    <div class="col-12">
+                        <h3>5-Day Forecast</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col forecast bg-primary text-white m-3 mb-3"></div>
+                    <div class="col forecast bg-primary text-white m-3 mb-3"></div>
+                    <div class="col forecast bg-primary text-white m-3 mb-3"></div>
+                    <div class="col forecast bg-primary text-white m-3 mb-3"></div>
+                    <div class="col forecast bg-primary text-white m-3 mb-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
